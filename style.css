@@ -1,0 +1,56 @@
+
+body{
+  font-family: "Playfair Display", serif;
+  background-color: #71494a;
+}
+header{
+  background-image: url("images/WaterfallRainbow.jpg");
+  background-size: cover;
+  height: 400px;
+  color: #3e3e32;
+}
+
+header div{
+  padding: 10px;
+}
+
+h2{
+  background-color: #b5735b;
+  color:  #3e3e32;
+  margin-block-end: 0;
+  margin-block-start: 8px;
+}
+
+.section-content{
+  background-color: #e5d3c5;
+  color:  #3e3e32;
+}
+
+#section-learnings img{
+  max-width: 200px;
+}
+
+#tbl-academic{
+  border: 1px solid #b5735b;
+}
+#tbl-academic th, #tbl-academic td{
+  border: 1px dashed #b5735b;
+  padding: 2px;
+}
+
+footer{
+  background-color: #b18b64;
+}
+
+nav a{
+  border: 1px dashed #b5735b;
+}
+
+.logo{
+  transition: all 0.5s;
+}
+
+.logo:hover{
+  filter: invert(1);
+  /* opacity: 0; */
+}
