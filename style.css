@@ -44,6 +44,8 @@ footer{
 
 nav a{
   border: 1px dashed #b5735b;
+  background-color: rgba(229,211,197,0.6);
+  font-family: "Playfair Display", serif;
 }
 
 .logo{
